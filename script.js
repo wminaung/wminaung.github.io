@@ -1,12 +1,9 @@
 const navbar = document.querySelector(".win-navbar");
 const body = document.querySelector("body");
 const winName = document.querySelector(".win-name");
-const log = console.log;
 
 document.addEventListener("scroll", (e) => {
-  log(scrollY); //48
   if (scrollY > 0) {
-    isOk = false;
     navbar.classList.add("addT");
   } else {
     navbar.classList.remove("addT");
@@ -19,9 +16,4 @@ document.addEventListener("scroll", (e) => {
       '"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif';
     winName.style.color = "white";
   }
-  // if (isOk) {
-  //   winName.classList.add("sticky");
-
-  //   isOk = false;
-  // }
 });
