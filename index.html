@@ -1,16 +1,164 @@
 <!DOCTYPE html>
-<html>
-<head> 
-<title>wminaung</title>
- <style>
- h1{
-    text-align: center;
- }
- </style>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Win Min Aung" />
+    <meta name="copyright" content="copyright2022" />
+    <meta name="keywords" content="Win Min Aung, winminaung, win, qung" />
+    <meta name="description" content="This is just a blah, blah, blah..." />
 
-<h1>Welcome to my web page!!!</h1>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+      }
+      .win {
+        min-height: 100vh;
+      }
+      .win-navbar {
+        position: sticky;
+        top: 3px;
+        opacity: 0;
+        transform: translateY(-55px);
+        transition: all 0.3s linear;
+      }
+      .zindex99 {
+        z-index: 99;
+      }
+      /* .navbar {
+        border-radius: 8px;
+      } */
+
+      .addT {
+        opacity: 0.9;
+        transform: translateY(0px);
+      }
+      .win-name {
+        color: white;
+        position: sticky;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        top: 12px;
+      }
+      .win-content {
+        position: relative;
+        color: white;
+      }
+
+      .win-footer {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        opacity: 0.3;
+        padding: 10px 0px;
+        left: 0px;
+        bottom: calc(100vh - 100vh) px;
+      }
+    </style>
+  </head>
+  <body>
+    <marquee>
+      <img
+        src="images/balloon.png"
+        alt="Balloon"
+        width="200"
+        height="150"
+        style="margin: 10px 300px 0 50px"
+      />
+      <h2>Hello</h2>
+    </marquee>
+    <div class="bg"></div>
+
+    <div class="container position-relative win">
+      <div class="row win-navbar zindex99">
+        <div class="col">
+          <nav class="navbar bg-light rounded-4">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="images/favicon.ico"
+                  alt="Bootstrap"
+                  width="30"
+                  height="24"
+                />
+              </a>
+              <h3 style="color: red">Opp!</h3>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row win-name zindex99">
+        <div class="col">
+          <div>Win Min Aung</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="text-center">
+            <span class="win-leftspan win-bothspan"></span>
+            <img
+              src="images/everyday-basics-pi9W2dWDdak-unsplash.jpg"
+              class="rounded img-thumbnail win-img"
+              alt="..."
+            />
+
+            <span class="win-rightspan win-bothspan"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row win-content zindex99">
+        <div class="col">
+          <p>Hi! I'm Someone.</p>
+          <!-- <div>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+            <p>Hi! I'm Win Min Aung, someone</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="row win-footer position-absolute bg-info">
+      <div class="col">
+        <footer>copyright&copy;2022</footer>
+      </div>
+    </div>
+    <!--Script-->
+    <script src="script.js"></script>
+  </body>
 </html>
