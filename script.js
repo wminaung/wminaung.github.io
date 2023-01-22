@@ -17,3 +17,7 @@ document.addEventListener("scroll", (e) => {
     winName.style.color = "white";
   }
 });
+
+const copyRightDate = document.getElementById("copyRightDate");
+
+copyRightDate.textContent = new Date().getFullYear();
